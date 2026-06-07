@@ -79,6 +79,9 @@ C语言的知识点
 
       int arr[10]={0};
       int sz = 0;
+      printf("%d\n",sizeof(arr));         //结果是40 
+      sz = sizeof(arr)/sizeof(arr[0]);    
+      printf("sz=%d\n",sz);               //结果是sz=10
 
 
       
